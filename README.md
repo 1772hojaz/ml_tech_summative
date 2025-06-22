@@ -1,14 +1,14 @@
-# 📚 Agric Chatbot: T5 Model Fine-Tuning and Evaluation
+#  Agric Chatbot: T5 Model Fine-Tuning and Evaluation
 
 This project explores the fine-tuning of a T5-small model for building an agricultural question-answering chatbot using a real-world farmers' query dataset. The chatbot is designed to assist farmers by providing contextual responses to common agricultural problems.
 
 ---
 
-## 🧪 Experiments Summary
+##  Experiments Summary
 
 We fine-tuned multiple versions of the T5 model by adjusting various hyperparameters such as learning rate, batch size, weight decay, number of epochs, and precision mode. Evaluation was conducted using standard NLP metrics like **BLEU**, **ROUGE-1**, **ROUGE-2**, **ROUGE-L**, and **Evaluation Loss**.
 
-### 🔍 First Model (Baseline)
+###  First Model (Baseline)
 
 | Metric        | Value    |
 |---------------|----------|
@@ -20,7 +20,7 @@ We fine-tuned multiple versions of the T5 model by adjusting various hyperparame
 
 ---
 
-## ✅ Best Performing Model: Mixed Precision
+##  Best Performing Model: Mixed Precision
 
 After experimenting with different settings, the **Mixed Precision model** showed the highest performance:
 
@@ -34,7 +34,7 @@ After experimenting with different settings, the **Mixed Precision model** showe
 
 ---
 
-## 📈 Analysis
+##  Analysis
 
 - The **Mixed Precision** model performed significantly better across all key evaluation metrics.
 - It reduced evaluation loss by nearly half, which suggests better generalization.
@@ -43,13 +43,13 @@ After experimenting with different settings, the **Mixed Precision model** showe
 
 ---
 
-## 📦 Conclusion
+##  Conclusion
 
 This experiment proves that strategic hyperparameter tuning and enabling mixed precision training can **greatly improve model performance** in real-world text generation tasks such as chatbot systems. The final model is ready for deployment or integration into agricultural advisory platforms.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 - `mltech1.ipynb`: Main notebook with preprocessing, training, evaluation
 - `data/`: Cleaned and preprocessed dataset
@@ -58,7 +58,7 @@ This experiment proves that strategic hyperparameter tuning and enabling mixed p
 
 ---
 
-## ✨ Future Work
+##  Future Work
 
 - Integrate the chatbot into a mobile/web application.
 - Support multi-lingual and dialect-based inputs.
@@ -70,5 +70,5 @@ https://github.com/1772hojaz/Machine_learning_techniques
 
 ---
 
-📌 _Developed by Humphrey Nyahoja — Fine-tuning transformers to empower agriculture in Africa._
+_Developed by Humphrey Nyahoja — Fine-tuning transformers to empower agriculture in Africa._
 
