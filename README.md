@@ -65,6 +65,10 @@ This experiment proves that strategic hyperparameter tuning and enabling mixed p
 - Enable real-time retraining from user feedback.
 
 ---
+## Link to Front-End Repo
+https://github.com/1772hojaz/Machine_learning_techniques
+
+---
 
 📌 _Developed by Humphrey Nyahoja — Fine-tuning transformers to empower agriculture in Africa._
 
